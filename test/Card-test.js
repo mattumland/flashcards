@@ -3,7 +3,7 @@ const expect = chai.expect;
 
 const Card = require('../src/Card');
 
-describe('Card', function() {
+describe('Initializing a Card', function() {
 
   it('should be a function', function() {
     const card = new Card();
@@ -19,7 +19,6 @@ describe('Card', function() {
     const card = new Card(1);
     expect(card.id).to.equal(1);
   });
-
 
   it('should store a question', function() {
     const card = new Card(1, 'What allows you to define a set of related information using key-value pairs?', ['object', 'array', 'function'], 'object');
