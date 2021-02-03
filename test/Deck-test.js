@@ -4,7 +4,6 @@ const Deck = require('../src/Deck');
 const Card = require('../src/Card');
 
 describe('Initialize deck', function() {
-
   it('should be an instance of Deck', function() {
     const deck = new Deck();
 

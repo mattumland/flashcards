@@ -65,8 +65,8 @@ describe('Turn method functionality', function() {
     const turnA = new Turn('duh', card);
     const turnB = new Turn ('double duh', card);
 
-    expect(turnA.giveFeedback()).equal('Incorrect');
-    expect(turnB.giveFeedback()).equal('Correct');
+    expect(turnA.giveFeedback()).equal('Incorrect!');
+    expect(turnB.giveFeedback()).equal('Correct!');
   });
 
 });
