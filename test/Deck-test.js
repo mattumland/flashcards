@@ -1,6 +1,6 @@
 const chai = require('chai');
 const expect = chai.expect;
-const Deck = require('../src/Card');
+const Deck = require('../src/Deck');
 const Card = require('../src/Card');
 
 describe('Initialize deck', function() {
@@ -29,7 +29,7 @@ describe('Confirm card counting method', function() {
     const card3 = new Card(12, 'What is Travis\'s middle name?', ['Lex', 'William', 'Fitzgerald'], 'Fitzgerald');
     const deck = new Deck([card1, card2, card3]);
 
-    expect(deck.countCards()).to.deep.equal(3); 
+    expect(deck.countCards()).to.deep.equal(3);
   });
 
 });
