@@ -21,8 +21,8 @@ class Game {
     });
 
     deck = new Deck(cards);
-
     this.currentRound = new Round(deck);
+    
     this.printMessage(deck, this.currentRound);
     this.printQuestion(this.currentRound);
   }
