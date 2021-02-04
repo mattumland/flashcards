@@ -8,7 +8,7 @@ class Round {
   }
 
   returnCurrentCard() {
-    return this.deck.shift();
+    return this.deck[this.turns];
   }
 
   takeTurn(guess) {
