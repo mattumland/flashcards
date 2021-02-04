@@ -91,8 +91,7 @@ describe ('Round', function() {
       round.takeTurn('spleen');
 
       expect(round.calculatePercentCorrect()).to.be.deep.equal(50);
-    })
-
+    });
   });
 
 })
