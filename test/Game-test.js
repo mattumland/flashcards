@@ -3,7 +3,6 @@ const expect = chai.expect;
 const data = require('../src/data');
 const prototypeQuestions = data.prototypeData;
 const Deck = require('../src/Deck');
-const Turn = require('../src/Turn');
 const Card = require('../src/Card');
 const Round = require('../src/Round');
 const Game = require('../src/Game');
